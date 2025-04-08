@@ -1,0 +1,33 @@
+# Core NLP
+transformers==4.40.1
+sentence-transformers==2.2.2
+nomic==1.1.10
+
+# File handling
+python-docx==1.1.0
+PyMuPDF==1.23.21      # for PDF handling (fitz)
+PyPDF2==3.0.1
+pandas==2.2.1
+openpyxl==3.1.2       # Excel reading
+xlrd==2.0.1           # Legacy Excel support
+
+# Tokenization & Chunking
+tiktoken==0.5.1
+
+# Vector DB
+chromadb==0.4.24
+faiss-cpu==1.7.4      # Optional if using FAISS locally
+
+# Local LLM support
+llama-cpp-python==0.2.24
+
+# Translation & Summarization
+torch==2.2.1
+rouge-score==0.1.2
+
+# Performance tracking & Utility
+tqdm==4.66.2
+numpy==1.26.4
+
+# CLI & File management
+typer==0.12.3
